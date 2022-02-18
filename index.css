@@ -1,0 +1,46 @@
+.navigation__component {
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+		rgba(0, 0, 0, 0.22) 0px 15px 12px;
+	background-color: var(--nav-color);
+	padding: 4px;
+}
+
+.main {
+	padding: var(--padding-rem-s);
+}
+.main__header {
+	text-align: center;
+	color: var(--background-color);
+	margin: var(--margin-rem-s);
+}
+
+.quiz__container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 23rem);
+	justify-content: center;
+	justify-items: center;
+	gap: var(--gap-sm);
+}
+
+.card {
+	height: fit-content;
+	border-radius: var(--border-radius-m);
+	border: none;
+}
+.card img {
+	border-radius: var(--border-radius-m);
+}
+.card__title {
+	position: absolute;
+	width: 100%;
+	top: 6rem;
+	z-index: var(--z-index-xl);
+	background-color: var(--text-background-color);
+}
+.card__title h2 {
+	text-align: center;
+	color: var(--background-color);
+}
+.card__title h2:hover {
+	color: var(--secondary-color);
+}
