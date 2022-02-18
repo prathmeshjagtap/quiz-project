@@ -1,0 +1,37 @@
+.main {
+	padding: var(--padding-rem-s);
+}
+.main__header {
+	text-align: center;
+	color: var(--background-color);
+	margin: var(--margin-rem-s);
+}
+
+.quiz__container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 23rem);
+	justify-content: center;
+	justify-items: center;
+	gap: var(--gap-sm);
+}
+
+.card {
+	height: fit-content;
+	border-radius: var(--border-radius-m);
+	border: none;
+	cursor: pointer;
+}
+.card img {
+	border-radius: var(--border-radius-m);
+}
+.card__title {
+	position: absolute;
+	width: 100%;
+	top: 6rem;
+	z-index: var(--z-index-xl);
+	background-color: var(--text-background-color);
+}
+.card__title h2 {
+	text-align: center;
+	color: var(--background-color);
+}
