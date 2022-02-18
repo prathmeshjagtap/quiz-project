@@ -19,7 +19,6 @@
 	height: fit-content;
 	border-radius: var(--border-radius-m);
 	border: none;
-	cursor: pointer;
 }
 .card img {
 	border-radius: var(--border-radius-m);
@@ -34,4 +33,7 @@
 .card__title h2 {
 	text-align: center;
 	color: var(--background-color);
+}
+.card__title h2:hover {
+	color: var(--secondary-color);
 }
