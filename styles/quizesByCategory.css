@@ -1,0 +1,16 @@
+.quiz__card {
+	border: 1px solid var(--text-color);
+	border-radius: var(--border-radius-m);
+	background-color: var(--background-color);
+	color: var(--text-color);
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.quiz__card img {
+	border-radius: var(--border-radius-m) var(--border-radius-m) 0 0;
+}
+.card__titles {
+	padding: calc(2 * var(--padding-px-l));
+}
+.quiz__card h2 {
+	font-size: 1.4rem;
+}
