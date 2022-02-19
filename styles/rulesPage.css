@@ -1,0 +1,19 @@
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: var(--gap-m);
+}
+.rules__container {
+	max-width: 60ch;
+	color: var(--background-color);
+	padding: var(--padding-rem-s);
+	border: 1px solid var(--border-color);
+	border-radius: var(--border-radius-m);
+	text-align: center;
+}
+.rules__container h3,
+.rules__container p {
+	margin: var(--margin-rem-s);
+}
