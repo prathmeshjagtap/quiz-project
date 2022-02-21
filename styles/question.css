@@ -13,7 +13,7 @@
 .question {
 	margin: calc(2 * var(--margin-px-l)) 0;
 }
-.options li {
+.options__item {
 	width: 100%;
 	background-color: #1c1b1b;
 	margin: 1.5rem 0;
@@ -23,7 +23,7 @@
 	font-size: 1.2rem;
 	cursor: pointer;
 }
-.options li:hover,
+.options__item:hover,
 .quiz__options__container a:hover {
 	color: var(--primary-color);
 }
