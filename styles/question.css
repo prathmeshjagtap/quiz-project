@@ -37,3 +37,19 @@
 .quiz__options__container a {
 	padding: var(--padding-px-l);
 }
+
+.quiz__questions {
+	margin-top: var(--margin-rem-l);
+}
+
+.option__wrong {
+	background-color: var(--warning-red-color);
+}
+
+.option__correct {
+	background-color: var(--success-green-color);
+}
+
+.quiz__result {
+	text-align: center;
+}
